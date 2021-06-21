@@ -63,9 +63,9 @@
                             displayMessage("Event created.");
                             calendar.fullCalendar('renderEvent', {
                                 id: data.id,
-                                name: name,
-                                start_time: start_time,
-                                end_time: end_time,
+                                title: name,
+                                start: start_time,
+                                end: end_time,
                                 allDay: allDay
                             }, true);
                             calendar.fullCalendar('unselect');
